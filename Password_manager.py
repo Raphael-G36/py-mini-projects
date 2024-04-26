@@ -1,3 +1,6 @@
+from cryptography.fernet import Ferenet
+
+
 Master_pwd = input("Enter master password: ")
 
 def view():
@@ -15,7 +18,7 @@ def add():
         f.write(name + "|" + pwd +"\n")
 
 
-def delete():
+def ():
     pass
 
 while True:
